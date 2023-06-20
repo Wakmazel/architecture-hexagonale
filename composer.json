@@ -1,0 +1,21 @@
+{
+    "name": "architecture/hexagonal",
+    "autoload": {
+        "psr-4": {
+            "Architecture\\Hexagonal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hubert Misonia",
+            "email": "misoniahubert@gmail.com"
+        }
+    ],
+    
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
