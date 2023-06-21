@@ -6,6 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Architecture\\Hexagonal\\' => array($baseDir . '/src'),
-    'App\\' => array($baseDir . '/src'),
+    'App\\' => array($baseDir . '/src', $baseDir . '/src'),
 );

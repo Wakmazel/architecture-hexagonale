@@ -9,19 +9,15 @@ class ComposerStaticInit9a1faef0afc9ada02f48977d0f2c6025
     public static $prefixLengthsPsr4 = array (
         'A' => 
         array (
-            'Architecture\\Hexagonal\\' => 23,
             'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Architecture\\Hexagonal\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/../..' . '/src',
         ),
     );
 

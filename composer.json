@@ -2,7 +2,7 @@
     "name": "architecture/hexagonal",
     "autoload": {
         "psr-4": {
-            "Architecture\\Hexagonal\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
